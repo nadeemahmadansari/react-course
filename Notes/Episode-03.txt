@@ -1,0 +1,45 @@
+React element is not a HTML element.
+React element is object.
+When we render this element onto DOM its become HTML element.
+
+render() will take react element and convert into HTML element and push it to the browser and it will replace everything i.e inside the root with whatever rendering in render().
+
+JSX: 
+- JavaScript Syntax which is easier to create React element.
+- JSX is not part of React.
+- JSX is a conventions where we kind of merge these HTML and JS together.
+- JSX is not HTML inside javascript.
+- JSX is different from HTML.
+- JSX is HTML-like or XML-like syntax.
+- When JSX is execute in React it become React element.
+- JS engine does not understand JSX.
+- JSX is not a pure javascript.
+- JSX code transpilied(code is converted to the code that browsers can understand) before it goes to the JS engine.
+- PARCEL sent this code to BABEL and BABEL is transpiling code that React can understand.
+- BABEL is a JS compiler or transpiler the JSX code into browser can understand or React can understand
+- JSX code Babel transpilied into react element which is JS object and it render as HTML element
+- JSX => Babel transpiles it to React.createElement => ReactElement-JS Object => HTMLElement(render)
+- Wrap JSX code in round brackets.
+- JSX takes care of injection attack, it escape malicious attack.
+- JSX sanitised data.
+- JSX has single parent root.
+
+BABEL:
+- BABEL is a some piece of javascript code.
+- Its a JS library.
+- Its a npm package.
+- It read code and convert that code into something else.
+
+React Component:
+- Everything is component in React.
+- Two types of components
+    - Class based components - OLD
+    - Functional components - NEW
+- Name with Capital letter to create component in React.
+
+React Functional Component is just a normal javascript function which returns some JSX.
+render component with opening and closing arrow tag with component name. 
+
+Component compositions is composing two or more component into one another.
+
+React Fragment behaves like a empty tag.
