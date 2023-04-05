@@ -1,0 +1,49 @@
+NPM is everything but not node package manager.
+NPM does not have full form.
+NPM manage packages but does not stand for node package manager.
+NPM is a repository for all the packages. It is the biggest package manager, all the packages are hosted in NPM repository.
+NPM manage package/dependencies that we will install in our system
+
+Package.json is a configuration for npm
+Main is the entry point.
+It keeps all track what version of all packages/dependencies installed in it.
+Most important package is bundler
+Bundler: Our whole code need to bundled/minified/cleaned/compressed before it send to production.
+
+There are two types of dependencies
+--dev dependencies(development)
+--normal dependencies(used in production also)
+
+^(carot)- It will automatically update the minor
+~(tilde)- It will automatically update the major
+
+Package.lock.json keep a track of exact version.
+It keeps a hash to verify that whatever in my machine is same version in production level.
+
+Node modules: It contains all the code of dependencies that fetch from npm.
+Transitive dependencies: In this our project need dependencies and that dependencies need more dependencies to run.
+
+If you have package.json and package.lock.json then you can regenrate node modules.
+
+npx used for execute packages.
+
+Browser script cannot understand import or export so we need to inject js file as a module type in script tag.
+
+# Parcel
+- Dev build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification(Production Build)
+- Bundling
+- Compress
+- Consistent Hashng
+- Code Splitting
+- Differential Bundling - support older browsers
+- Diagnostic
+- Error Handling
+- Host on HTTPs
+- Tree Shaking - remove unused code
+- Different dev and production bundles
