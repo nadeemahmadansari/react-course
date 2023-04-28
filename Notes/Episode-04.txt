@@ -1,0 +1,16 @@
+Planning to build an App.
+
+Props: 
+    Passing a props to a component is just like passing a argument to a function.
+    Props are just normal arguments to a function.
+    Prop is an object.
+    Its pass to a component.
+    React will take all properties whch pass in component and it will wrap inside an object and it will pass as a props in aurgument.
+    When you have to dynamically passing some data to a component you pass in as a props.
+
+Config driven UI - 
+- Our website is driven by congif.
+- Controlling your UI how the UI looks like using data, using config and that config came form backend.
+
+Map - 
+-   Never use index as a key
