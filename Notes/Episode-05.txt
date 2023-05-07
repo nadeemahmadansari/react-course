@@ -1,0 +1,25 @@
+React is fast beacuase react fast in DOM manupilation and efficient.
+
+Hooks-
+    - A normal JS function which is given to us by react.
+    - Its a prebuild the only thing is that function comes with superpower, it has logic written behind the scene inside React.
+    - This function is a utility function given by react to us.
+    - Hooks import as a Named import type
+
+    useState()-
+        - It is a Super powerfull variable.
+        - It is used to create state variable.
+        - It maintain the state of our component.
+        - Keep the UI in sync with data.
+        - Whenever a state variable react re-rendered the component.
+        - As soon data changes react re-rendered component.
+
+React using Reconciliation Algorithm also known as React Fiber.
+The “reconciliation” algorithm in React is how the decision to re-render the component is made.
+    - It watches closely for differences, and only updates the DOM when necessary and tries to update only the parts which need to be changed.
+    - The reconciliation algorithm is run whenever the component level state is updated.
+
+Virtual DOM is not an actual DOM.
+    - It is representation of an actual DOM.
+    - It is just a javascript object.
+    - Diff Algorithm finds out the diff between tow virtual DOM the updated virtual DOM and the previous virtual DOM.
