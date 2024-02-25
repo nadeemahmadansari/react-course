@@ -1,4 +1,5 @@
-React is fast beacuase react fast in DOM manupilation and efficient.
+React is fast beacuase react fast in DOM manupilation and doing efficient DOM manupilation beacuase it ha Virtual DOM.
+React efficiently find out the difference between virtual DOMs and update the UI.
 
 Hooks-
     - A normal JS function which is given to us by react.
@@ -11,6 +12,7 @@ Hooks-
         - It is used to create state variable.
         - It maintain the state of our component.
         - Keep the UI in sync with data.
+        - A local state variable scope is inside the component.
         - Whenever a state variable react re-rendered the component.
         - As soon data changes react re-rendered component.
 
@@ -21,5 +23,7 @@ The “reconciliation” algorithm in React is how the decision to re-render the
 
 Virtual DOM is not an actual DOM.
     - It is representation of an actual DOM.
-    - It is just a javascript object.
-    - Diff Algorithm finds out the diff between tow virtual DOM the updated virtual DOM and the previous virtual DOM.
+    - It is just a javascript object and javascript representation of HTML code.
+    - Diff Algorithm finds out the diff between two virtual DOM the updated virtual DOM and the previous virtual DOM.
+    - Once it find out diff between old DOM and new DOM then it will update in actual DOM.
+    - Whenever there is a change in any state variable react will find out  the diff between virtual DOM and it will re-render our component or it will update the actual DOM.

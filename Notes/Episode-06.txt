@@ -1,0 +1,26 @@
+Monolithic Architecture
+    - In this architecture it bound UI, backend, databse in one project.
+    - When making change in UI we need todeploy the whole project
+
+Microservice Architecture
+    - A microservices architecture, also simply known as microservices, is an architectural method that relies on a series of independently deployable services.
+    - It can connect with UI, backend, DB other services by /PATH_NAME.
+
+Two approaches of how UI applications fetch the data from backened
+    1- As soon as our page load we can make API call wait for data to come and then we render the data
+    2- As soon as the page load we will just render UI now we will make API call as soon as we get data now we will render the data
+
+    Second approach is better and give the better UX beacuase user does not see any lag and random stuff.
+
+React render cycle is very fast, React render our UI very Fast
+
+UseEffect -  useEffect callback function will be called after our component renderes 
+
+CORS - Cross Origin Resource sharing
+    It is a mechanism which uses additional HTTP headers to tell the browser whether a specific webapp can share resource with another webapp but that both the webapp should have different origin.
+
+Why do we even need state variable?
+    - It will re-render the component.
+    - It will change the default value and re-render the component.
+    - When we change state variable value it will create new virtaul DOM and compare the new virtual DOM with old virtual DOM and render the component.
+    - Whenever state variable update react trigger a reconciliation cycle(re-render the component)

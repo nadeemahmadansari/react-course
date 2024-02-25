@@ -1,0 +1,24 @@
+useEffect()
+    - It will be called everytime after component rendered.
+    - Dependency array changes the behaviour of its render.
+    - Only callback is mandatory.
+    - Without dependency array it will called on every render.
+    - If the dependency array is empty then it is called on only initial render(just once).
+    - If dependency array is not empty then it will only be called when the dependency changes.
+
+useState()
+    - Never create state variable outside the component.
+    - It is used for creating local state variable inside your functional component.
+
+createBrowserRouter - It create cinfiguration of the router.
+RouterProvider - It provide the configuration to our app.
+Reacr ROuter DOM - It gives us an access to an important hook and that hook is useRouteError.
+useRouteError - It gives more information about error.
+Outlet - It is a component and it will be filled with the children according to the path.
+Link - It is a component, when we navigate to another page it will nao reload the page it will only render the component.
+- Link is very fast, Refreshes the component.
+- Never use anchor tag it will reload the whole page when navigate to another page.
+
+2 types Routing in webapps
+- Client Side Routing
+- Server Side Routing
